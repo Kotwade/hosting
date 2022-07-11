@@ -1,0 +1,139 @@
+.page-header__wrapper {
+  background-color: $text;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.page-header__top {
+  margin: 0 auto;
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header__contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header__contacts a {
+  color: $white;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  position: relative;
+}
+
+.page-header__contacts i {
+  font-size: 14px;
+  line-height: 21px;
+  color: $white;
+}
+
+.page-header__contacts--tel {
+  margin-bottom: 17px;
+}
+
+.page-header__contacts--tel::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: -40px;
+  top: 0;
+  background-image: url("../img/phone_icon.png");
+}
+
+.page-header__contacts--mail::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: -40px;
+  top: 0;
+  background-image: url("../img/mail-icon.png");
+}
+
+.page-header__account {
+  display: flex;
+  width: 307px;
+  justify-content: space-between;
+}
+
+.page-header__account--button {
+  color: $white;
+  background-color: $blue;
+  padding: 7px 42px;
+  font-size: 20px;
+  line-height: 30px;
+  display: block;
+  height: 44px;
+  width: 232px;
+}
+
+.page-header__account--icon {
+  width: 34px;
+  height: 34px;
+  background-color: $blue;
+  border-radius: 50%;
+  position: relative;
+}
+
+.page-header__account--icon::before {
+  content: "";
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 0;
+  top: 0;
+  background-image: url("../img/account-icon.png");
+  background-repeat: no-repeat;
+}
+
+.page-nav__list {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  padding-top: 16px;
+}
+
+.page-nav__item {
+  font-size: 20px;
+  line-height: 30px;
+  color: $text;
+  text-transform: uppercase;
+  padding: 0;
+  position: relative;
+}
+
+.page-nav__item::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  right: -65px;
+  top: 5px;
+  background-color: rgba($text, 0.2)
+}
+
+.page-nav__item:last-child::after {
+  display: none;
+}
+
+.page-nav__item:last-child {
+  padding-right: 20px;
+}
+
+.page-nav__item:last-child::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 8px;
+  right: 0;
+  top: 10px;
+  background-image: url("../img/arrow-down.png");
+  background-repeat: no-repeat;
+}

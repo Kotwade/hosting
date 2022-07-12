@@ -1,0 +1,93 @@
+.hosting {
+  background: linear-gradient(91.05deg, #5994BA 14.15%, #ADCCE0 99%);
+  position: relative;
+  padding-bottom: 64px;
+}
+
+.hosting::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/server.png");
+  background-repeat: no-repeat;
+  top: 0;
+  left: 695px;
+  width: 671px;
+  height: 435px;
+}
+
+.hosting__wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 54px;
+}
+
+.hosting__wrapper h1 {
+  font-size: 72px;
+  line-height: 72px;
+  width: 660px;
+  color: $white;
+  letter-spacing: 0.06em;
+  margin-top: 0;
+}
+
+.hosting__wrapper p {
+  color: $white;
+  margin: 0;
+  padding: 0;
+}
+
+.hosting__wrapper b {
+  color: $white;
+  margin: 0;
+  padding: 0;
+}
+
+.hosting__buttons {
+  position: relative;
+}
+
+.hosting__blue-button {
+  background-color: $blue-dark;
+  width: 410px;
+  padding-left: 130px;
+  padding-top: 4px;
+  padding-bottom: 6px;
+  font-size: 24px;
+  line-height: 36px;
+  color: $white;
+  border: none;
+  margin-right: 74px;
+  position: relative;
+  z-index: 10;
+}
+
+.hosting__blue-button::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/arrow.png");
+  background-repeat: no-repeat;
+  width: 151px;
+  height: 38px;
+  top: 42px;
+  right: -109px;
+}
+
+.hosting__back {
+  position: absolute;
+  width: 425px;
+  height: 44px;
+  top: 10px;
+  left: 0;
+  background-color: #fe8572;
+  z-index: 1;
+}
+
+.hosting__orange-button {
+  background-color: $orange;
+  padding: 7px 32px;
+  font-size: 20px;
+  line-height: 30px;
+  color: $white;
+  border: none;
+}

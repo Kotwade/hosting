@@ -1,0 +1,130 @@
+.rate {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.rate__wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.rate__wrapper h2 {
+  margin-top: 0;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.rate__text {
+  width: 720px;
+}
+
+.rate__name-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.rate__name-item {
+  width: 280px;
+  height: 190px;
+  box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+}
+
+.rate__name-item p {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: $blue-dark;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.rate__deal {
+  text-align: center;
+}
+
+.rate__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.rate__description-item {
+  width: 280px;
+  height: 488px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rate__description-item b {
+  font-weight: 600;
+  text-align: center;
+}
+
+.rate__description-item span {
+  display: block;
+  font-weight: 16px;
+  line-height: 24px;
+  color: $text2;
+  text-align: center;
+}
+
+.rate__price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.rate__price--background {
+  background: linear-gradient(90deg, #7CB4D8 0%, rgba(191, 230, 255, 0) 100%);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $blue-dark;
+}
+
+.rate__price--background span {
+  font-size: 14px;
+  line-height: 21px;
+  color: $blue-dark;
+}
+
+.rate__price--line {
+  font-size: 36px;
+  line-height: 54px;
+  text-decoration-line: line-through;
+}
+
+.rate__price--line span {
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration-line: line-through;
+}
+
+.rate__button {
+  display: block;
+  width: 232px;
+  height: 44px;
+  padding: 7px 42px;
+  color: $white;
+  background-color: $blue;
+  text-align: center;
+  letter-spacing: 0.035em;
+  font-size: 20px;
+  line-height: 30px;
+  border: none;
+}
